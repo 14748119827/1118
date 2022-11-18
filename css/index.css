@@ -22,9 +22,11 @@ h3 {
 }
 
 /* 楼层区 */
+
 .navfloor {
     position: fixed;
-    left: 4px;
+    right: 50%;
+    margin-right: 600px;
     top: 220px;
     width: 67px;
     height: 344px;
