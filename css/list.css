@@ -1,0 +1,204 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?tomleg');
+    src: url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+        url('../fonts/icomoon.woff?tomleg') format('woff'),
+        url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.logo img {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+header .miaosha {
+    position: absolute;
+    top: 41px;
+    left: 200px;
+    border-left: 1px solid #b1191a;
+}
+
+.nav {
+    overflow: hidden;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav .naviteml li {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.nav .naviteml li a {
+    color: #000;
+    padding: 0 26px;
+}
+
+.nav .naviteml li a:hover {
+    color: #b1191a;
+}
+
+.nav .navitemr li {
+    height: 40px;
+    line-height: 42px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.nav .navitemr li a {
+    padding: 0 25px;
+}
+
+.nav .navitemr li .more {
+    padding-right: 0;
+}
+
+.nav .navitemr li .more::after {
+    font-family: 'icomoon';
+    content: '\e91e';
+}
+
+.pic {
+    margin-bottom: 15px;
+}
+
+.floor {
+    position: fixed;
+    bottom: 70px;
+    left: 50%;
+    margin-left: 600px;
+}
+
+.floor .ft,
+.fb {
+    width: 68px;
+    height: 68px;
+    color: #fff;
+    text-align: center;
+    background-color: #b1191a;
+    font-family: 'icomoon';
+}
+
+.floor .ft {
+    margin-bottom: 2px;
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+.floor .ft i {
+    display: block;
+}
+
+.floor .fb {
+    font-size: 40px;
+    padding-top: 5px;
+}
+
+/* 产品 */
+.goods {
+    overflow: hidden;
+    margin-bottom: 70px;
+}
+
+.goods li {
+    float: left;
+    position: relative;
+    width: 287px;
+    height: 463px;
+    margin-right: 14px;
+    border: 1px solid transparent;
+}
+
+.goods li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.goods li:hover {
+    border: 1px solid #b1191a;
+}
+
+.goods li img {
+    width: 100%;
+    height: 287px;
+}
+
+.goods li p {
+    font-size: 14px;
+}
+
+.goods li .discribe {
+    padding: 0 10px;
+}
+
+.goods .price {
+    margin: 5px 0;
+}
+
+.goods li .pricenow {
+    font-size: 22px;
+    font-weight: 600;
+    color: #e82633;
+    padding-right: 10px;
+}
+
+.goods li .pricenow i {
+    font-size: 14px;
+}
+
+.goods li .priced {
+    text-decoration: line-through;
+}
+
+.goods li .nl {
+    font-size: 14px;
+}
+
+.goods li .nl i {
+    font-size: 12px;
+}
+
+.goods .jingdutiao {
+    display: inline-block;
+    width: 133px;
+    height: 12px;
+    margin: 0 3px;
+    border: 1px solid #e82633;
+    border-radius: 6px;
+}
+
+
+.goods .jingdu {
+    width: 113px;
+    height: 10px;
+    background-color: #e82633;
+    border-radius: 5px 0 0 5px;
+}
+
+.goods .nr {
+    font-size: 14px;
+}
+
+.goods .nr i {
+    color: #e82633;
+}
+
+.goods .buy {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    font-size: 20px;
+    background-color: #b1191a;
+    color: #fff;
+}

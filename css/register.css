@@ -1,0 +1,101 @@
+header {
+    height: 80px;
+    border-bottom: 2px solid #c51929;
+    line-height: 80px;
+    margin-bottom: 20px;
+}
+
+.raheader {
+    height: 40px;
+    padding: 0 15px;
+    font-size: 18px;
+    background-color: #ececec;
+    line-height: 40px;
+}
+
+.raheader span {
+    float: right;
+    font-size: 14px;
+}
+
+.registerarea {
+    width: 560px;
+    margin: 50px auto 0;
+    font-size: 14px;
+}
+
+.registerarea .tr {
+    margin-bottom: 20px;
+}
+
+.registerarea .text {
+    display: inline-block;
+    width: 84px;
+    height: 35px;
+    text-align: right;
+    line-height: 35px;
+
+}
+
+.registerarea input {
+    width: 238px;
+    height: 35px;
+    border: 1px solid #999999;
+}
+
+.registerarea .false {
+    color: #df3033;
+    line-height: 35px;
+}
+
+.registerarea .safe {
+    margin: 10px 0px 18px 155px;
+    font-size: 12px;
+    color: #999999;
+    line-height: normal;
+}
+
+.registerarea .safe span {
+    padding: 0 12px;
+    color: #fff;
+}
+
+.registerarea .safe .high {
+    background-color: #de1111;
+    margin-left: 5px;
+}
+
+.registerarea .safe .mid {
+    background-color: #40b83f;
+}
+
+.registerarea .safe .low {
+    background-color: #f79100;
+}
+
+.xieyi {
+    margin-left: 84px;
+}
+
+.xieyi .check {
+    vertical-align: middle;
+    width: 16px;
+    height: 15px;
+    margin-right: 8px;
+}
+
+.registerarea .submit {
+    margin: 50px 0px 40px 95px;
+    width: 200px;
+    height: 34px;
+    background-color: #c51929;
+    border: 0;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.mod_copyright {
+    border-top: 1px solid #dfdfdf;
+}
